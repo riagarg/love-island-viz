@@ -13,27 +13,35 @@ const GlobalStyles = createGlobalStyle`
   }
 
   p {
-    font-family: Muli, sans-serif;
-    font-size: 1.2rem;
+    font-family: nunito;
+    font-size: 1.1rem;
+    text-align: left;
   }
 
+  li {
+    margin-left: 10px;
+    list-style-type: circle;
+ }
+
   h1 {
-    color: #A3352C;
-    font-family: 'Philosopher', sans-serif;
+    color: #f9564fff;
+    font-family: 'Comfortaa';
     font-size: 4rem;
     line-height: 4.5rem;
     margin: 0;
 	@media (max-width: 900px) {
 		font-size: 3.5rem;
-		line-height: 4.5rem;
+    line-height: 4.5rem;
+    text-align: left;
 	}
   }
   
   h2 {
-    color: #A3352C;
-    font-family: 'Philosopher', sans-serif;
+    color: #f9564fff;
+    font-family: 'Comfortaa';
     font-size: 2rem;
     margin: 0;
+    text-align: left;
   }
   
   h3 {
