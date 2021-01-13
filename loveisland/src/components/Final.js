@@ -8,15 +8,17 @@ const TextWrapper = styled.div`
     background: rgb(255,236,181, .7);
     height: auto;
     text-align: center;
-    padding: 5vh 10vw;
-    margin-top: 15vh;
+    padding: 5vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
 `
 const Text = styled.span`
     color: rgba(0,0,0,1);
     width: 80vw;
     font-weight: 300;
     font-family: Nunito; 
-    font-size: 20px;
+    font-size: 30px;
 `
 const Image = styled.img`
   position: absolute;

@@ -2,15 +2,22 @@ import ChordDiagram from 'react-chord-diagram';
 import React, { Component } from 'react';
 import TextSection from './TextSection';
 import styled from 'styled-components';
+import Grid from '@material-ui/core/Grid';
+import { makeStyles } from '@material-ui/core/styles';
+
 
 
 const data = require('../data/ind-chord2.json');
 
 const Container = styled.div`
-    columns: 2 auto;
-    height: '300px';
+    padding: 5vw;
 `
-
+const useStyles = makeStyles((theme) => ({
+    root: {
+      flexGrow: 1,
+      padding: 100
+    }
+}))
 
 export default class ConflictChord extends React.Component {
 
@@ -23,9 +30,9 @@ export default class ConflictChord extends React.Component {
     
     render() {
     return (
-        <div>
-          <Container>
-                <div>
+        <Container>
+          <Grid container>
+                <Grid item xs>
                     <TextSection
                         title={"concluding conflict charts..."}
                         description ={
@@ -38,13 +45,15 @@ export default class ConflictChord extends React.Component {
                     matrix={data['conflict']['matrix']} 
                     componentId={1}
                     groupLabels={data['conflict']['islanders']}
-                    groupColors={['#FFFFFF' , '#a2d6f9ff', '#7b1e7aff', "#ed6b83ff"]}
+                    groupColors={['#FFFFFF' , '#5fd3ed', '#7b1e7aff', "#ed6b83ff"]}
+                    // light blue: '#a2d6f9ff'
                     blurOnHover= {false}
-                    width={600}
-                    height={600}
+                    width={580}
+                    height={580}
+                    resizeWithWindow={true}
                 />
-                </div>
-                <div>
+                </Grid>
+                <Grid item xs>
                 <TextSection
                     title={"concluding couples charts..."}
                     description ={
@@ -59,14 +68,15 @@ export default class ConflictChord extends React.Component {
                         groupLabels={data['couples']['islanders']}
                         groupColors={['#ed6b83ff', '#fffd98ff', '#f9564fff','#FFFFFF',]}
                         blurOnHover= {false}
-                        width={600}
-                        height={600}
+                        width={580}
+                        height={580}
+                        resizeWithWindow={true}
                     />
-                </div>
+                </Grid>
                     
-            </Container>
+            </Grid>
             
-        </div>
+        </Container>
     )}
 }
 

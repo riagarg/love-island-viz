@@ -29,6 +29,13 @@ const Content = styled.div`
     margin-bottom: 0;
   }
 `
+
+const domainMap = {
+  1: {x: [0, 60], y: [0, 3200000]},
+  2: {x: [0,10], y: [0, 1000000]},
+  3: {x: [45,60], y: [2000000, 3200000]}
+}
+
 const displayMap = {
     1: {
         "amber": true,
@@ -200,6 +207,10 @@ export default class IgFollowersScrollama extends React.Component {
     return displayMap[data] || displayMap[1];
   }
 
+  getDomain = (data) => {
+    return domainMap[data] || domainMap[3];
+  }
+
   render() {
     const { data, steps, progress } = this.state;
 
@@ -223,7 +234,7 @@ export default class IgFollowersScrollama extends React.Component {
           </Scrollama>
         </Scroller>
         <Graphic>
-          <IgFollowers displayInfo={this.getDisplayInfo(data)}/>
+          <IgFollowers displayInfo={this.getDisplayInfo(data)} domain={this.getDomain}/>
         </Graphic>
       </Main>
     );

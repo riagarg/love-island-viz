@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import TitleCake from '../assets/title.png';
+import AnimPic from '../assets/animated-cast-title.png';
 import Chevron from './Chevron.js';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
@@ -85,12 +85,12 @@ const Container = styled.div `{
   }`
 
 
-const ImgWrapper = styled.div`
-	position: sticky;
-	width: 35vw;
-	height: 70vh;
-	top: 5vh;
-	left: 5vw;
+const ImgWrapper = styled.img`
+	width: 100vw;
+	display: flex;
+	height: auto;
+	padding-bottom: 2vh;
+	margin-bottom: 10vh;
 	@media (max-width: 900px) {
 		position: static;
 		width: 70vw;
@@ -152,7 +152,10 @@ export default function TitleCard() {
 
 	return(
 		<div className={classes.root}>
-			<Grid container alignItems="stretch">
+		{/* <TitleWrapper> */}
+		<ImgWrapper src={AnimPic} />
+		{/* </TitleWrapper> */}
+			{/* <Grid container alignItems="stretch">
 				<Grid item xs={3}>
 					<div className={classes.papera}></div>
 				</Grid>
@@ -183,7 +186,7 @@ export default function TitleCard() {
 						</Authors>
 					</div>
 				</Grid>
-			</Grid>
+			</Grid> */}
 		</div>		
 	);
 }

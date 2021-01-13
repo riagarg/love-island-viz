@@ -31,14 +31,14 @@ const TextWrapper = styled.div`
 function App() {
   return (
     <div className="App">
-        <style>
-        @import url('https://fonts.googleapis.com/css?family=Muli:400,700|Philosopher:400,700&display=swap');
-        @import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Nunito:400,700|Dancing+Script:400|Aladin:400|Anton:400,700)
-        </style>
-        <GlobalStyles/>
-        <TitleCard/>
-        <Highlight text="Love Island brings together the UK’s most eligible singles in a summer competition to find love."/>
-        <IntroScroll/>
+      <style>
+      @import url('https://fonts.googleapis.com/css?family=Muli:400,700|Philosopher:400,700&display=swap');
+      @import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Nunito:400,700|Dancing+Script:400|Aladin:400|Anton:400,700)
+      </style>
+      <GlobalStyles/>
+      <TitleCard/>
+      <Highlight text="Love Island brings together the UK’s most eligible singles in a summer competition to find love."/>
+      <IntroScroll/>
       {/* <D3ex/> */}
       <JobsHistScrollama/>
       <Highlight text="For both gaining a following or winning the show, you need audience support. So let’s explore a little more on how to optimize building a large following."/>
@@ -51,7 +51,8 @@ function App() {
 
        <ConflictChord/>
        <Final text="In order to win this show you need to make yourself seen and a part of the larger story. You need to build relationships--both romantic and not--and involve 
-       yourself with some drama! "/>
+       yourself with some drama! Keep on the show as long as possible and be likable character. Be involved in the most storylines possible while staying 
+       humble! "/>
 
        <Footer/>
     </div>

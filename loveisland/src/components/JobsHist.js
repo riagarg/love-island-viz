@@ -84,7 +84,7 @@ export default class JobsHist extends React.Component {
           y={this.getDataWithDisplayInfo(this.state.displayInfo)}
           alignment="start"
           style={{
-            data: { fill: "purple" },
+            data: { fill: "#f9564fff" },
             labels: { fontSize: ({ text }) => text.length > 5 ? 8 : 12 },
             parent: { border: "1px solid #ccc" }
           }}

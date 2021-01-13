@@ -14,6 +14,7 @@ export default class IgFollowers extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      domain: props.domain,
       displayInfo: props.displayInfo,
       animate: props.animate,
       animating: false
@@ -23,6 +24,7 @@ export default class IgFollowers extends React.Component {
   componentDidUpdate(prevProps) {
     if (!this.state.animating && this.props !== prevProps) {
       this.setState({
+        domain: this.props.domain,
         displayInfo: this.props.displayInfo,
         showRegression: this.props.showRegression,
         animating: true
@@ -52,6 +54,7 @@ export default class IgFollowers extends React.Component {
         animate={{ duration: this.state.animate }}
         theme={VictoryTheme.material}
         domainPadding={1}
+        domain={this.state.domain}
       >
         <VictoryAxis
           label="duration"
@@ -92,7 +95,7 @@ export default class IgFollowers extends React.Component {
           z="islander"
           alignment="start"
           style={{
-            data: { fill: "purple" },
+            data: { fill: "#5fd3ed" },
             labels: { fontSize: ({ text }) => text.length > 5 ? 8 : 12 },
             parent: { border: "1px solid #ccc" }
           }}

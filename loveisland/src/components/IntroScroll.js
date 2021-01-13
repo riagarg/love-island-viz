@@ -8,7 +8,7 @@ import AG from '../assets/gregamber.png';
 import MT from '../assets/mollymaetommy.png';
 
 const Main = styled.div`
-  padding: 1vh 2vw;
+  padding: 1vh 2vw 5vh;
   display: flex;
   font-family: Helvetica;
   justify-content: space-between;
