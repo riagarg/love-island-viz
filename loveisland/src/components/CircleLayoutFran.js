@@ -79,7 +79,7 @@ export default class CircleLayoutFran extends React.Component {
                         <div className="card-image-overlay m-auto" />
                             <div className="card-body text-center">
                             <div className="ad-title m-auto">
-                                <h5>{"TITLE"}</h5>
+                                <h5>{"Francesca"}</h5>
                             </div>
                         </div>
                     </Card>

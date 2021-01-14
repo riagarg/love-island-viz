@@ -29,6 +29,13 @@ const TextWrapper = styled.div`
 
 
 function App() {
+// const fs = require('fs');
+// var merge = require('package-merge');
+// var dst = fs.readFileSync('package.json');
+// var src = fs.readFileSync('../package.json');
+ 
+// Create a new `package.json`
+// console.log(merge(dst, src));
   return (
     <div className="App">
       <style>
@@ -61,18 +68,3 @@ function App() {
 
 export default App;
 
-
-//aclonica
-//acme
-//Aguafina Script
-//Aladin
-
-{/* <ExampleScrollama onStepEnter={1}>  
-{/* onStepEnter={callback}> 
-<Step data={1}>
-<div>...</div>
-</Step>
-<Step data={2}>
-<div>...</div>
-</Step>
-</ExampleScrollama>  */}
