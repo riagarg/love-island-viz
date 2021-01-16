@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4b3ba11837a115978d8b17fdf358cb33",
+    "revision": "2717a10d739893cd828dc37e189ec813",
     "url": "/love-island-viz/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/love-island-viz/static/css/2.c8b5ab71.chunk.css"
   },
   {
-    "revision": "10e2ad9636b600700cc7",
+    "revision": "d86d65ccccf77a97a731",
     "url": "/love-island-viz/static/css/main.dc0a14bb.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/love-island-viz/static/js/2.5aab485a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "10e2ad9636b600700cc7",
-    "url": "/love-island-viz/static/js/main.810290fd.chunk.js"
+    "revision": "d86d65ccccf77a97a731",
+    "url": "/love-island-viz/static/js/main.58ff1217.chunk.js"
   },
   {
     "revision": "a7f722225087e220cce7",

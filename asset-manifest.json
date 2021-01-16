@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/love-island-viz/static/css/main.dc0a14bb.chunk.css",
-    "main.js": "/love-island-viz/static/js/main.810290fd.chunk.js",
-    "main.js.map": "/love-island-viz/static/js/main.810290fd.chunk.js.map",
+    "main.js": "/love-island-viz/static/js/main.58ff1217.chunk.js",
+    "main.js.map": "/love-island-viz/static/js/main.58ff1217.chunk.js.map",
     "runtime-main.js": "/love-island-viz/static/js/runtime-main.39ad0c61.js",
     "runtime-main.js.map": "/love-island-viz/static/js/runtime-main.39ad0c61.js.map",
     "static/css/2.c8b5ab71.chunk.css": "/love-island-viz/static/css/2.c8b5ab71.chunk.css",
     "static/js/2.5aab485a.chunk.js": "/love-island-viz/static/js/2.5aab485a.chunk.js",
     "static/js/2.5aab485a.chunk.js.map": "/love-island-viz/static/js/2.5aab485a.chunk.js.map",
     "index.html": "/love-island-viz/index.html",
-    "precache-manifest.fbdf4aeef451368395c4073bc923230b.js": "/love-island-viz/precache-manifest.fbdf4aeef451368395c4073bc923230b.js",
+    "precache-manifest.ae8b77590a08290eda927c9e9fd08d7c.js": "/love-island-viz/precache-manifest.ae8b77590a08290eda927c9e9fd08d7c.js",
     "service-worker.js": "/love-island-viz/service-worker.js",
     "static/css/2.c8b5ab71.chunk.css.map": "/love-island-viz/static/css/2.c8b5ab71.chunk.css.map",
     "static/css/main.dc0a14bb.chunk.css.map": "/love-island-viz/static/css/main.dc0a14bb.chunk.css.map",
@@ -32,6 +32,6 @@
     "static/css/2.c8b5ab71.chunk.css",
     "static/js/2.5aab485a.chunk.js",
     "static/css/main.dc0a14bb.chunk.css",
-    "static/js/main.810290fd.chunk.js"
+    "static/js/main.58ff1217.chunk.js"
   ]
 }
