@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/love-island-viz/precache-manifest.2f8c775d141a70f5c9181f796c7928c9.js"
+  "/love-island-viz/precache-manifest.ee22dce7bf03a5b2ad632f1b2844a84a.js"
 );
 
 self.addEventListener('message', (event) => {

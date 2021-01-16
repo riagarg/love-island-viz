@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d813607fdd03b222910dd88d534c0ca5",
+    "revision": "bfc504e4a7e1b89002f5b6452753eb2d",
     "url": "/love-island-viz/index.html"
   },
   {
-    "revision": "6fb2e1140da293ef6744",
+    "revision": "9cd01d7b82334e86ac09",
     "url": "/love-island-viz/static/css/2.c8b5ab71.chunk.css"
   },
   {
-    "revision": "e39f33cfa1f1786c47ff",
+    "revision": "3f88c208bf4392e8ef25",
     "url": "/love-island-viz/static/css/main.dc0a14bb.chunk.css"
   },
   {
-    "revision": "6fb2e1140da293ef6744",
-    "url": "/love-island-viz/static/js/2.460aa5d2.chunk.js"
+    "revision": "9cd01d7b82334e86ac09",
+    "url": "/love-island-viz/static/js/2.7b9fefdf.chunk.js"
   },
   {
     "revision": "68ba00d5eb083746d913686923a3d904",
-    "url": "/love-island-viz/static/js/2.460aa5d2.chunk.js.LICENSE.txt"
+    "url": "/love-island-viz/static/js/2.7b9fefdf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e39f33cfa1f1786c47ff",
-    "url": "/love-island-viz/static/js/main.2b2e2b22.chunk.js"
+    "revision": "3f88c208bf4392e8ef25",
+    "url": "/love-island-viz/static/js/main.635d4107.chunk.js"
   },
   {
-    "revision": "77db3e2c02d69f08f935",
-    "url": "/love-island-viz/static/js/runtime-main.9c38f6b0.js"
+    "revision": "990fa97e5b9a8f05c3e7",
+    "url": "/love-island-viz/static/js/runtime-main.90cd3138.js"
   },
   {
     "revision": "db80b0add92e159c78e9c0deded5b5d0",

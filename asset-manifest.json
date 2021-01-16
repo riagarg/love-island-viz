@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/love-island-viz/static/css/main.dc0a14bb.chunk.css",
-    "main.js": "/love-island-viz/static/js/main.2b2e2b22.chunk.js",
-    "main.js.map": "/love-island-viz/static/js/main.2b2e2b22.chunk.js.map",
-    "runtime-main.js": "/love-island-viz/static/js/runtime-main.9c38f6b0.js",
-    "runtime-main.js.map": "/love-island-viz/static/js/runtime-main.9c38f6b0.js.map",
+    "main.js": "/love-island-viz/static/js/main.635d4107.chunk.js",
+    "main.js.map": "/love-island-viz/static/js/main.635d4107.chunk.js.map",
+    "runtime-main.js": "/love-island-viz/static/js/runtime-main.90cd3138.js",
+    "runtime-main.js.map": "/love-island-viz/static/js/runtime-main.90cd3138.js.map",
     "static/css/2.c8b5ab71.chunk.css": "/love-island-viz/static/css/2.c8b5ab71.chunk.css",
-    "static/js/2.460aa5d2.chunk.js": "/love-island-viz/static/js/2.460aa5d2.chunk.js",
-    "static/js/2.460aa5d2.chunk.js.map": "/love-island-viz/static/js/2.460aa5d2.chunk.js.map",
+    "static/js/2.7b9fefdf.chunk.js": "/love-island-viz/static/js/2.7b9fefdf.chunk.js",
+    "static/js/2.7b9fefdf.chunk.js.map": "/love-island-viz/static/js/2.7b9fefdf.chunk.js.map",
     "index.html": "/love-island-viz/index.html",
-    "precache-manifest.2f8c775d141a70f5c9181f796c7928c9.js": "/love-island-viz/precache-manifest.2f8c775d141a70f5c9181f796c7928c9.js",
+    "precache-manifest.ee22dce7bf03a5b2ad632f1b2844a84a.js": "/love-island-viz/precache-manifest.ee22dce7bf03a5b2ad632f1b2844a84a.js",
     "service-worker.js": "/love-island-viz/service-worker.js",
     "static/css/2.c8b5ab71.chunk.css.map": "/love-island-viz/static/css/2.c8b5ab71.chunk.css.map",
     "static/css/main.dc0a14bb.chunk.css.map": "/love-island-viz/static/css/main.dc0a14bb.chunk.css.map",
-    "static/js/2.460aa5d2.chunk.js.LICENSE.txt": "/love-island-viz/static/js/2.460aa5d2.chunk.js.LICENSE.txt",
+    "static/js/2.7b9fefdf.chunk.js.LICENSE.txt": "/love-island-viz/static/js/2.7b9fefdf.chunk.js.LICENSE.txt",
     "static/media/amber-conflicts.png": "/love-island-viz/static/media/amber-conflicts.db80b0ad.png",
     "static/media/amber-couples.png": "/love-island-viz/static/media/amber-couples.e6a322c6.png",
     "static/media/amber-friends.png": "/love-island-viz/static/media/amber-friends.926aeefe.png",
@@ -28,10 +28,10 @@
     "static/media/ovie-couch.jpeg": "/love-island-viz/static/media/ovie-couch.c9e35c01.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9c38f6b0.js",
+    "static/js/runtime-main.90cd3138.js",
     "static/css/2.c8b5ab71.chunk.css",
-    "static/js/2.460aa5d2.chunk.js",
+    "static/js/2.7b9fefdf.chunk.js",
     "static/css/main.dc0a14bb.chunk.css",
-    "static/js/main.2b2e2b22.chunk.js"
+    "static/js/main.635d4107.chunk.js"
   ]
 }
