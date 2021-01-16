@@ -70,7 +70,7 @@ export default class IndChordSM extends React.Component {
         <div />
         <div />
         <Bottom>
-          <IndChord islander={"lucie"}/>
+          <IndChord islander={"chris"}/>
         </Bottom>
         <Bottom>
           <IndChord islander={"francesca"}/>
