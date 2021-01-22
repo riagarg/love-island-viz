@@ -44,7 +44,7 @@ function App() {
       </style>
       <GlobalStyles/>
       <TitleCard/>
-      <Highlight text="Love Island brings together the UK’s most eligible singles in a summer competition to find love."/>
+      <Highlight text="So think you have what it takes to get crowned UK's hottest couple on Love Island? Let's find out!"/>
       <IntroScroll/>
       {/* <D3ex/> */}
       <JobsHistScrollama/>
